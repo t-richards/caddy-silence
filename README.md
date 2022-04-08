@@ -27,7 +27,7 @@ Configure:
 ```
 # Global config block
 {
-	servers :8443 {
+	servers :443 {
 		listener_wrappers {
 			silence
 			tls
