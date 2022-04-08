@@ -1,0 +1,14 @@
+{
+	skip_install_trust
+	servers :8443 {
+		listener_wrappers {
+			silence
+			tls
+		}
+	}
+}
+
+:8443 {
+	tls internal
+	respond 200
+}
