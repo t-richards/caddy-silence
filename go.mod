@@ -1,4 +1,4 @@
-module silence
+module github.com/t-richards/caddy-silence
 
 go 1.18
 

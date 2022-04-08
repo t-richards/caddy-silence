@@ -1,4 +1,4 @@
-package caddyhttp
+package silence
 
 import (
 	"bufio"
