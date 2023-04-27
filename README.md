@@ -17,7 +17,7 @@ This module eliminates this response entirely by closing the connection when it 
 Build:
 
 ```bash
-export CADDY_VERSION=master
+export CADDY_VERSION=v2.6.4
 go install github.com/caddyserver/xcaddy/cmd/xcaddy@latest
 xcaddy build --with=github.com/t-richards/caddy-silence
 ```
